@@ -1,0 +1,219 @@
+* {
+    margin: auto;
+}
+
+#box {
+    width: 750px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+#one {
+    width: 180px;
+    height: 60px;
+    float: left;
+    border-right: 15px solid black;
+    border-bottom: 15px solid black;
+    background-color: rgba(202, 199, 199, 0.384);
+}
+
+#two {
+    width: 240px;
+    height: 60px;
+    position: relative;
+    left: -53px;
+    border-right: 15px solid black;
+    border-bottom: 15px solid black;
+    background-color: rgba(255, 228, 196, 0.692);
+    
+}
+
+#three {
+    width: 220px;
+    height: 60px;
+    position: relative;
+    left: 192px;
+    top: -75px ;
+    border-right: 15px solid black;
+    border-bottom: 15px solid black;
+    background-color: rgba(226, 169, 26, 0.671);
+}
+
+#four {
+    width: 80px;
+    height: 180px;
+    position: relative;
+    right: 329px;
+    bottom: 75px;
+    border-right: 15px solid black;
+    border-bottom: 15px solid black;
+    background-color: rgba(248, 244, 185, 0.37);
+}
+
+#five {
+    width: 340px;
+    height: 350px;
+    position: relative;
+    bottom: 285px;
+    right: 110px;
+    border: 15px solid black;
+    background-color: rgba(212, 36, 36, 0.918);
+}
+
+#six {
+    width: 219px;
+    height: 180px;
+    position: relative;
+    bottom: 650px;
+    left: 185px;
+    border: 15px solid black;
+    border-top: none;
+    background-color: rgba(226, 169, 26, 0.671) ;
+}
+
+#seven {
+    width: 80px;
+    height: 260px;
+    position: relative;
+    right: 329px;
+    bottom: 665px;
+    border: 15px solid black;
+    border-left: none;
+    background-color: rgba(202, 199, 199, 0.384) ;
+}
+
+#eight {
+    width: 101px;
+    height: 152px;
+    position: relative;
+    bottom: 952px;
+    left: 127px;
+    border: 15px solid black;
+    background-color: rgba(248, 244, 185, 0.37) ;
+}
+
+#nine {
+    width: 101px;
+    height: 152px;
+    position: relative;
+    bottom: 1134px;
+    left: 244px;
+    border: 15px solid black;
+    background-color: rgba(238, 189, 157, 0.363);
+
+}
+
+#ten {
+    width: 180px;
+    height: 156px;
+    position: relative;
+    bottom: 1148px;
+    right: 189px;
+    border: 15px solid black;
+    background-color: rgba(36, 3, 3, 0.945);
+}
+
+#eleven {
+    width: 145px;
+    height: 70px;
+    position: relative;
+    bottom:1333px ;
+    right: 12px;
+    border: 15px solid black;
+    background-color:rgba(202, 199, 199, 0.384) ;
+}
+
+#twelve {
+    width: 145px;
+    height: 70px;
+    position: relative;
+    bottom:1348px ;
+    right: 12px;
+    border: 15px solid black;
+    background-color:rgba(248, 244, 185, 0.37) ;
+}
+
+#thirteen {
+    width: 219px;
+    height: 69px;
+    position: relative;
+    bottom: 1534px;
+    left: 185px;
+    border: 15px solid black;
+    background-color:rgba(248, 244, 185, 0.37) ;
+
+}
+
+#fourteen {
+    width: 80px;
+    height: 150px;
+    position: relative;
+    bottom: 1514px;
+    right: 329px;
+    border-right: 15px solid black;
+    background-color:rgba(226, 169, 26, 0.671) ;
+}
+
+#fifteen {
+    width: 180px;
+    height: 79px;
+    position: relative;
+    bottom: 1609px;
+    right: 191px;
+    border: 15px solid black;
+    border-bottom: none;
+    background-color:rgba(202, 199, 199, 0.384);
+}
+
+#sixteen {
+    width: 145px;
+    height: 40px;
+    position: relative;
+    bottom: 1700px;
+    right: 12px;
+    border: 15px solid black;
+    background-color: rgba(36, 3, 3, 0.945) ;
+    
+}
+
+#seventeen {
+    width: 379px;
+    height: 15px;
+    position: relative;
+    bottom: 1709px;
+    left: 105px;
+    border: 15px solid black;
+    border-bottom: none;
+    background-color: rgba(202, 199, 199, 0.384);
+}
+
+#eighteen {
+
+    width: 218px;
+    height: 128px;
+    position: relative;
+    bottom:1890px;
+    left: 185px;
+    border: 15px solid black;
+    background-color: rgba(51, 14, 218, 0.815);
+}
+
+#ninteen {
+    width: 67px;
+    height: 515px;
+    position: relative;
+    bottom: 2565px;
+    left: 343px;
+    border-bottom: 15px solid black;
+    background-color: rgba(248, 244, 185, 0.37);
+}
+
+#twenty {
+    width: 67px;
+    height: 169px;
+    position: relative;
+    bottom: 2565px;
+    left: 335px;
+    border-left: 15px solid black;
+    background-color:rgba(212, 36, 36, 0.918) ;
+}
