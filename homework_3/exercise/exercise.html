@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Exercise</title>
+</head>
+<body>
+    <h1>Exercise</h1>
+
+    <br><br>
+
+    <form action="">
+
+    <fieldset>
+        <legend>
+            <strong>Testform</strong>
+        </legend>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="email@example.com">
+
+        <br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required placeholder="Enter your name">
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required placeholder="Enter your password">
+
+        <br>
+
+        <p>Gender:
+        <input type="radio" name="gender" id="male" value="male" checked="checked">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        </p>
+
+        <br><br>
+ 
+        <label for="continent">Continent:</label>
+        <select name="continent" id="continent"> 
+            <option disabled selected> Choose continent</option>  
+            <option value="europe" >Europe</option>
+            <option value="asia">Asia</option>
+            <option value="africa">Africa</option>
+            <option value="australia">Australia</option>
+            <option value="antarctica">Antarctica</option>
+            <option value="america">America</option>
+            
+        </select>
+
+        <br>
+
+        <p>Offers:</p>
+
+        <input type="checkbox" name="offer" id="shipping" value="shipping">
+        <label for="shipping">Shipping</label>
+        <br>
+        <input type="checkbox" name="offer" id="sale" value="sale">
+        <label for="sale">Black Friday Sale</label>
+        <br>
+        <input type="checkbox" name="offer" id="10" value="10">
+        <label for="10">10% off for next order</label>
+
+        <br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date" min="2020-12-03" />
+
+        <br><br>
+
+        <label for="picture">Please attach a picture of the item you chose</label>
+        <input type="file" name="picture" id="picture">
+
+        <br><br>
+
+        <label for="color">Pick a color for your item</label>
+        <input type="color" name="color" id="color">
+
+        <br><br>
+
+        <label for="amount">Please select amount of items</label>
+        <input type="range" name="amount" id="amount" min="5">
+
+        <br><br>
+
+        <label for="remark">Remark:</label>
+        <textarea name="remark" id="remark" cols="40" rows="5" placeholder="Please enter remark.."></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Cancel">
+        
+
+    </fieldset>
+
+</form>
+    
+</body>
+</html>
