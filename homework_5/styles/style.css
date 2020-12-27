@@ -1,0 +1,179 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.heading {
+
+    color: black;
+    border-top: 2px solid rgb(136, 224, 251);
+    border-right: 5px solid rgb(190, 178, 0);
+    border-bottom: 5px solid rgb(8, 133, 138);
+    border-left: 2px solid rgb(27, 27, 235);
+    background-color: rgb(179, 204, 233);
+    text-align: center;
+    margin-left: 850px;
+    margin-right: 850px;
+    text-shadow: 2px 2px 2px white;
+    padding: 10px;
+}
+
+.images img {
+    border-style: dotted;
+    border-color: green;
+    padding: 3px;
+}
+
+
+
+#cat1 {
+    margin-top: 40px;
+    margin-left: 670px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    
+}
+
+#cat2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+}
+
+#cat3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+#cat1:hover {
+    height: 130px;
+    width: 130px;
+}
+
+#cat2:hover {
+    height: 130px;
+    width: 130px;
+}
+
+#cat3:hover {
+    height: 130px;
+    width: 130px;
+}
+
+.box_types {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+.box_types article {
+    border: 3px dashed black;
+    margin:20px;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+}
+
+#content_box {
+    background-clip: content-box;
+    background-color: rgb(40, 148, 89);
+}
+
+
+#padding_box {
+    background-clip: padding-box;
+    background-color:rgb(40, 148, 89) ;
+
+}
+
+#border_box {
+    background-clip: border-box;
+    background-color:rgb(40, 148, 89);
+
+}
+
+
+#bonus {
+    border-top-style: dashed;
+    border-top-color: red;
+    border-top-width: 2px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+table {
+    margin-left: 800px; 
+    width: 300px;
+    background-clip: content-box;
+    color: white;   
+    text-shadow: 2px 1px 1px black;                 
+    text-align: end;
+    border-spacing: 0;
+}
+
+#one {
+    background-color: rgb(19, 63, 185);
+}
+
+#two {
+    background-color: rgba(19, 63, 185, 0.829);
+}
+
+#three {
+    background-color: rgba(19, 63, 185, 0.637);
+}
+
+#four {
+    background-color:rgba(19, 63, 185, 0.548) ;
+}
+
+#five {
+    background-color:rgba(19, 63, 185, 0.397);
+}
+
+#six {
+    background-color:rgba(19, 63, 185, 0.322) ;
+}
+
+#seven {
+    background-color: rgba(19, 63, 185, 0.226);
+}
+
+#eight {
+    background-color: rgba(12, 114, 83, 0.705);
+}
+
+#nine {
+    background-color: rgba(200, 52, 101, 0.212);
+}
+
+#ten {
+    background-color:rgba(200, 52, 101, 0.315) ;
+}
+
+#eleven {
+    background-color:rgba(200, 52, 101, 0.472) ;
+}
+
+#twelve {
+    background-color:rgba(200, 52, 101, 0.657) ;
+}
+
+#thirteen {
+    background-color:rgba(200, 52, 101, 0.808) ;
+}
+
+#fourteen {
+    background-color:rgba(200, 52, 101, 0.89) ;
+}
+
+#fifteen {
+    background-color: rgb(200, 52, 101);
+}
